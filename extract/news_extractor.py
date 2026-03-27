@@ -64,7 +64,7 @@ def extract_news(run_ts: str = None) -> Path:
     Bütün mövzular üzrə xəbərləri çəkib CSV-ə yazır.
     Returns: raw CSV faylının yolu
     """
-    if not API_KEY or API_KEY == "buraya_api_key_yazin":
+    if not API_KEY:
         raise ValueError("NEWS_API_KEY təyin edilməyib! .env faylını yoxlayın.")
 
     if run_ts is None:
