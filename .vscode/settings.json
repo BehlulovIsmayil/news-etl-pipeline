@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "SQLCONNECT",
+            "database": "ecommerce_dw",
+            "username": "etl_user",
+            "password": "etl_pass"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+01:47:56  INFO      =======================================================
+01:47:56  INFO        NewsAPI ETL Pipeline  run_ts=20260328_014756
+01:47:56  INFO      =======================================================
+01:48:00  INFO      Transform: data\raw\news_20260328_014756.csv
+01:48:00  INFO        Raw rows    : 91
+01:48:00  INFO        Clean rows  : 91
+01:48:00  INFO        Rejected    : 0
+01:48:00  INFO          null_title:               0
+01:48:00  INFO          null_url:                 0
+01:48:00  INFO          dup_url:                  0
+01:49:19  INFO      =======================================================
+01:49:19  INFO        NewsAPI ETL Pipeline  run_ts=20260328_014919
+01:49:19  INFO      =======================================================
+01:49:23  INFO      Transform: data\raw\news_20260328_014919.csv
+01:49:23  INFO        Raw rows    : 91
+01:49:23  INFO        Clean rows  : 91
+01:49:23  INFO        Rejected    : 0
+01:49:23  INFO          null_title:               0
+01:49:23  INFO          null_url:                 0
+01:49:23  INFO          dup_url:                  0
+01:49:24  INFO      =======================================================
+01:49:24  INFO        Sentiment:
+01:49:24  INFO          neutral    83
+01:49:24  INFO          negative   4
+01:49:24  INFO          positive   4
+01:49:24  INFO      =======================================================
